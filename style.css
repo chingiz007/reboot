@@ -1,0 +1,86 @@
+#menu{
+	width: 300px;
+	height: 730px;
+	background: linear-gradient(to right, chocolate, sandybrown);
+	float: left
+}
+.block{
+	width: 510px;
+	height: 730px;
+	margin-left: 5px;
+	float: left;
+	
+}
+#ontop{
+	width: 510px;
+	height: 200px;
+	background: linear-gradient(to bottom left, #CC9966, #CC6633) 
+}
+.vertical{
+	width: 250px;
+	height: 525px;
+	margin-top: 5px;
+	float: left;
+	background: linear-gradient(to bottom left, BurlyWood, #CC9933) 
+}
+.vertical2{
+	width: 250px;
+	height: 525px;
+	margin-top: 5px;
+	float: left;
+	background: linear-gradient(to bottom right, sienna, moccasin) 
+}
+#bottom{
+	width: 510px;
+	height: 200px;
+	background: linear-gradient(to bottom right, #FFCC66, #FFCC33);
+	margin-bottom: 0px
+}
+#justblock{width: 510px;
+height: 530px}
+#img{
+	margin-top: 10px;
+	width: 250px;
+	height: 200px;
+	background: url(handmade2.png) 50% 100% no-repeat;
+	background-size: cover;
+	margin-right: auto;
+	margin-left: auto
+}
+#ontop:hover{
+	background: linear-gradient(to bottom, brown, sandybrown);
+}
+.vertical:hover{
+	background: linear-gradient(to right, brown, sandybrown)
+}
+.vertical2:hover{
+	background: linear-gradient(to left, brown, sandybrown)
+}
+#bottom:hover{
+	background: linear-gradient(to top, brown, sandybrown)
+}
+#ontop:active{
+	background: rgb(244, 213, 158)
+}
+#bottom:active{
+	background: rgb(244, 213, 158)
+}
+.vertical:active{
+	background: rgb(244, 213, 158)
+}
+.vertical2:active{
+	background: rgb(244, 213, 158)
+}
+#menuvariants{
+	width: 200px;
+	height: 400px;
+	background-color: red;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto
+}
+#menuvariants .var{width: 200px;
+height: 50px;
+background-color: yellow;
+margin-top: 5px;
+font: normal normal 20px impact}
